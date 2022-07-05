@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en" style="--theme-color: #262626; --link-color: #262626;">
+<head>
+  <meta charset="UTF-8">
+  <title>tools2anki工具集（笔记工具X转复习工具ANKI） - 学习骇客</title>
+
+  <link rel="icon" href="https://pic.xuexihaike.com/%E5%9B%BE%E7%89%875%E5%B0%8F%E5%9B%BE.png">
+<!-- <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet"> -->
+<link rel="alternate" type="application/atom+xml" title="学习骇客 - Atom Feed" href="https://xuexihaike.com/atom.xml">
+
+  
+
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-NFCRR8Q57W"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+  </script> -->
+  <script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+
+  <script>
+    window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+    ga('create', 'UA-182385326-1');
+    ga('set', 'dimension1', 'site/WJ7omTv3L');
+    ga('set', 'dimension2', 'post/mxrim0CSV');
+    ga('send', 'pageview');
+    // gtag('set', {
+    //   'custom_map': {
+    //     'dimension1': 'siteId',
+    //     'dimension2': 'postId',
+    //   }
+    // })
+
+    // gtag('config', 'G-NFCRR8Q57W', {
+    //   'siteId': 'site/WJ7omTv3L',
+    //   'postId': 'post/mxrim0CSV',
+    // });
+  </script>
+
+
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="此工具集由 @学习骇客 的LEO 和 @引思网卡片库 的pimgeek联合设计开发，收藏本页面到书签栏不迷路。
+配套的ANKI模板：点击下载 2021年09月03日更新
+
+Markdown → Anki
+工具页面：Markdown 笔记转换...">
+
+  <meta property="og:title" content="tools2anki工具集（笔记工具X转复习工具ANKI） - 学习骇客">
+  <meta property="og:description" content="此工具集由 @学习骇客 的LEO 和 @引思网卡片库 的pimgeek联合设计开发，收藏本页面到书签栏不迷路。
+配套的ANKI模板：点击下载 2021年09月03日更新
+
+Markdown → Anki
+工具页面：Markdown 笔记转换...">
+  
+  <meta property="og:url" content="https://xuexihaike.com/tools/">
+  <meta property="og:site_name" content="学习骇客">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image:alt" content="tools2anki工具集（笔记工具X转复习工具ANKI）">
+
+  <meta name="gridea:post_id" content="mxrim0CSV">
+
+  <link rel="canonical" href="https://xuexihaike.com/tools">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@10.0.3/styles/a11y-light.css">
+  
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@gridea/theme@1.0.8/css/main.css">
+
+</head>
+<body>
+  
+    
+  
+  <div id="page">
+    <div class="mb-16 sticky top-0 z-20 bg-white">
+  <header class="py-4 flex items-baseline justify-between max-w-2xl mx-auto px-2">
+    <h1 class="text-lg text-center font-medium px-4 md:px-0 flex items-center">
+      <div class="site-logo-text font-normal">学</div>
+      <a href="/">学习骇客</a>
+    </h1>
+    <div class="hidden sm:flex justify-center">
+      
+        
+        <a
+          href="https://xuexihaike.taobao.com"
+          class="mx-2 text-base border-b border-transparent"
+          
+        >第四代课程·购买</a>
+        
+          <span class="text-gray-200">/</span>
+        
+      
+        
+        <a
+          href="https://support.qq.com/products/314107/"
+          class="mx-2 text-base border-b border-transparent"
+          
+        >第四代课程·论坛</a>
+        
+      
+    </div>
+    <div class="flex sm:hidden py-2 px-4 text-center cursor-pointer" @click="openMenu = true">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M3 4h18v2H3V4zm0 7h18v2H3v-2zm0 7h18v2H3v-2z"/></svg>
+    </div>
+  </header>
+
+  <div class="fixed top-0 right-0 bottom-0 left-0 bg-white hidden" :style="{
+    display: openMenu ? 'block !important' : 'none',
+  }" v-if="openMenu">
+    <div class="py-4 px-2 flex justify-end" @click="openMenu = false">
+      <div class="flex py-2 px-4 text-center cursor-pointer">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 10.586l4.95-4.95 1.414 1.414-4.95 4.95 4.95 4.95-1.414 1.414-4.95-4.95-4.95 4.95-1.414-1.414 4.95-4.95-4.95-4.95L7.05 5.636z"/></svg>
+      </div>
+    </div>
+    <div class="flex flex-col p-4">
+      
+        
+        <a
+          href="https://xuexihaike.taobao.com"
+          class="mx-2 my-4 text-base border-b border-transparent"
+          
+        >第四代课程·购买</a>
+      
+        
+        <a
+          href="https://support.qq.com/products/314107/"
+          class="mx-2 my-4 text-base border-b border-transparent"
+          
+        >第四代课程·论坛</a>
+      
+    </div>
+  </div>
+</div>
+    <div class="border-b border-gray-200">
+      <div class="max-w-2xl mx-auto px-6 md:px-2">
+        <div class="my-24 text-center">
+          <h1 class="text-2xl font-bold">tools2anki工具集（笔记工具X转复习工具ANKI）</h1>
+          <div class="post-title-bar mx-auto rounded mt-4"></div>
+          <div class="text-gray-400 mt-4">2021.08.25</div>
+          <div class="flex justify-center mt-4">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="sticky-bar" class="w-full sticky top-0 z-10 bg-white" style="height: 64px;"></div>
+    <div class="p-4 md:p-16 bg-white">
+      <div class="max-w-2xl mx-auto px-4 flex relative">
+        <section class="post-content flex-1 default-post-content max-w-2xl">
+          <div v-pre>
+            <p>此工具集由 @学习骇客 的LEO 和 @引思网卡片库 的pimgeek联合设计开发，收藏本页面到书签栏不迷路。</p>
+<p>配套的ANKI模板：<a href="https://www.jianguoyun.com/p/DR0gFIsQ89bQBxjfi8YEIAA">点击下载</a> 2021年09月03日更新</p>
+<hr>
+<h2 id="markmarkdown-ankimark"><mark>Markdown → Anki</mark></h2>
+<p>工具页面：<a href="https://hintsnet.com/tools/md2anki/index.html">Markdown 笔记转换为 Anki 卡片</a>   <a href="https://mp.weixin.qq.com/s/vVxZuYTAgWMPABghMebGIQ">😀使用方法</a></p>
+<p>支持Markdown的笔记工具有：印象笔记、有道云笔记、为知笔记、坚果云笔记、滴答清单、Typora、Obsidian等等等等。</p>
+<br>
+<br>
+<h2 id="mark幕布mubucom-ankimark"><mark>幕布（mubu.com） → Anki</mark></h2>
+<p>工具页面：<a href="https://hintsnet.com/tools/mubu2anki/index.html">幕布（mubu.com）大纲笔记转换为 Anki 卡片</a>   <a href="https://mp.weixin.qq.com/s/7BcJbdtGTXq4BHx8mqU5sA">😀使用方法</a></p>
+<br>
+<br>
+<h2 id="markopml-ankimark"><mark>OPML → Anki</mark></h2>
+<p>工具页面：<a href="https://hintsnet.com/tools/opml2anki/index.html">OPML 文档转换为 Anki 卡片</a>   😀使用方法同幕布</p>
+<p>支持OPML的笔记有：幕布、Workflowy、OmniOutliner等等等等。</p>
+<br>
+<br>
+<h2 id="markroam-research-ankimark"><mark>Roam Research → Anki</mark></h2>
+<p>工具页面：<a href="https://hintsnet.com/tools/roam2anki/index.html">Roam Research 大纲笔记转换为 Anki 卡片</a>   <a href="https://mp.weixin.qq.com/s/xWQQI78Y_GBGxi4XyGuiYQ">😀使用方法</a></p>
+<br>
+<br>
+<h2 id="mark葫芦笔记-ankimark"><mark>葫芦笔记 → Anki</mark></h2>
+<p>工具页面：<a href="https://hintsnet.com/tools/hulu2anki/index.html">葫芦笔记转换为 Anki 卡片</a>    😀使用方法同Roam Research</p>
+<br>
+<br>
+<br>
+<br>
+<hr>
+<h2 id="mark微信读书-roam-researchmark"><mark>微信读书 → Roam Research</mark></h2>
+<p>工具页面：<a href="https://hintsnet.com/tools/wxread2roam/index.html">微信读书笔记转换为 Roam Research 大纲笔记</a>   <a href="https://mp.weixin.qq.com/s/BZ9kjcFU0Ed6IvH2cWFmvQ">😀使用方法</a></p>
+<p>此工具也适用于将微信读书笔记转入葫芦笔记等大纲笔记</p>
+<br>
+<br>
+<h2 id="mark微信读书-markdownmark"><mark>微信读书 → Markdown</mark></h2>
+<p>工具页面：<a href="https://hintsnet.com/tools/wxread2md/index.html">微信读书笔记转换为 Markdown 笔记</a>   <a href="https://mp.weixin.qq.com/s/BZ9kjcFU0Ed6IvH2cWFmvQ">😀使用方法</a></p>
+<p>支持Markdown的笔记工具有：印象笔记、有道云笔记、为知笔记、坚果云笔记、滴答清单、Typora、Obsidian等等等等。</p>
+<hr>
+<br>
+<br>
+<p>关注 微信公众号：学习骇客 ，一起用技术和心理学改善学习。<br>
+<img src="https://pic.xuexihaike.com/%E6%89%AB%E7%A0%81_%E6%90%9C%E7%B4%A2%E8%81%94%E5%90%88%E4%BC%A0%E6%92%AD%E6%A0%B7%E5%BC%8F-%E6%A0%87%E5%87%86%E8%89%B2%E7%89%88.png" alt="" loading="lazy"></p>
+
+          </div>
+          <div class="py-4 text-gray-600 flex items-center justify-between">
+            <div class="">
+              <div class="text-sm text-gray-300">最后更新于: </div>
+              <div class="text-base font-medium">2022.07.05</div>
+            </div>
+            <!-- <div class="flex items-center text-sm text-gray-600">
+              <i class="ri-eye-line"></i> <span class="ml-2">{{ views }}</span>
+            </div> -->
+          </div>
+          <div>
+            <div id="disqus_thread"></div>
+          </div>
+        </section>
+        
+          <!-- <aside class="sticky toc-container flex-shrink-0 hidden md:block">
+            <div class="text-gray-600 mb-4">目 录</div>
+            <ul class="markdownIt-TOC">
+<li>
+<ul>
+<li><a href="#markmarkdown-ankimark"><mark>Markdown → Anki</mark></a></li>
+<li><a href="#mark%E5%B9%95%E5%B8%83mubucom-ankimark"><mark>幕布（mubu.com） → Anki</mark></a></li>
+<li><a href="#markopml-ankimark"><mark>OPML → Anki</mark></a></li>
+<li><a href="#markroam-research-ankimark"><mark>Roam Research → Anki</mark></a></li>
+<li><a href="#mark%E8%91%AB%E8%8A%A6%E7%AC%94%E8%AE%B0-ankimark"><mark>葫芦笔记 → Anki</mark></a></li>
+<li><a href="#mark%E5%BE%AE%E4%BF%A1%E8%AF%BB%E4%B9%A6-roam-researchmark"><mark>微信读书 → Roam Research</mark></a></li>
+<li><a href="#mark%E5%BE%AE%E4%BF%A1%E8%AF%BB%E4%B9%A6-markdownmark"><mark>微信读书 → Markdown</mark></a></li>
+</ul>
+</li>
+</ul>
+
+          </aside> -->
+        
+      </div>
+    </div>
+    <div class="py-8 text-gray-300 text-center border-t border-gray-200">
+  Powered by Gridea
+</div>
+  </div>
+
+  <script src="//cdn.jsdelivr.net/npm/vue@2.6.11"></script>
+  
+  <script src="//cdn.jsdelivr.net/npm/@gridea/theme@1.0.8/js/main.js"></script>
+
+  <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.0.0/build/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  
+  
+    <div style="text-align: center" class="py-8 text-gray-300 text-center border-t border-gray-200"><a href="https://beian.miit.gov.cn/" target="_blank" class="text">苏ICP备18002808号-1</a> </div>
+  
+</body>
+</html>

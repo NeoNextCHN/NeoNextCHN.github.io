@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>xuexihaike.com</id>
+    <title>学习骇客</title>
+    <updated>2022-07-05T13:31:10.094Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="xuexihaike.com"/>
+    <link rel="self" href="xuexihaike.com/atom.xml"/>
+    <subtitle>用技术和心理学改善学习</subtitle>
+    <logo>https://pic.xuexihaike.com/%E5%9B%BE%E7%89%875%E5%B0%8F%E5%9B%BE.png</logo>
+    <icon>https://pic.xuexihaike.com/%E5%9B%BE%E7%89%875%E5%B0%8F%E5%9B%BE.png</icon>
+    <rights>All rights reserved 2022, 学习骇客</rights>
+    <entry>
+        <title type="html"><![CDATA[模板更新说明 2021年09月03日]]></title>
+        <id>https://xuexihaike.com/20210903update</id>
+        <link href="https://xuexihaike.com/20210903update"/>
+        <updated>2021-09-03T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[在 tools2anki 系列工具页面的 “素颜列表” 转换功能上，一直存在一个问题，即 笔记到了 ANKI 里以后，在编辑状态下，左侧边距较大，这次更新解决了这个问题。大家注意多按几次刷新（Ctrl Shift R），网页就会加载最新的了...]]></summary>
+        <content type="html"><![CDATA[<p>在 <a href="https://hintsnet.com/tools/mubu2anki/index.html">tools2anki</a> 系列工具页面的 “素颜列表” 转换功能上，一直存在一个问题，即 笔记到了 ANKI 里以后，在编辑状态下，左侧边距较大，这次更新解决了这个问题。大家注意多按几次<strong>刷新</strong>（Ctrl Shift R），网页就会加载最新的了。</p>
+<p>从今（2021年09月03日）以后，使用素颜列表的同学，得到的笔记都会一致贴边左对齐。</p>
+<p>为了调整之前导入的笔记，请大家做如下两步处理：</p>
+<p>1、在电脑版ANKI里，进入浏览，点击左侧的“牌组”或其他选项，选中全部笔记，然后右键选择“查找并替换”，将 【margin-left: -24px;】 查找替换为 【margin-left: 0px; padding-left: 0px;】 如下图所示。</p>
+<p><img src="https://pic.xuexihaike.com/mpic/20210903/FSYDJHYBRu4A.png" alt="mark" loading="lazy"></p>
+<p>2、到现有模板里把图中这块代码删掉。</p>
+<p><img src="https://pic.xuexihaike.com/mpic/20210903/JVrsStFDrfEg.png" alt="mark" loading="lazy"></p>
+<p>进入模板修改代码的路径如下图所示。</p>
+<p><img src="https://pic.xuexihaike.com/mpic/20210903/3PRRN8NnziYE.png" alt="mark" loading="lazy"></p>
+<p>3、如果还有再往前的笔记，需要再替换一次，将 【style=&quot;list-style-type: none;&quot;】 查找替换为 【style=&quot;list-style-type: none; margin-left: 0px; padding-left: 0px;&quot;】 如下图所示。</p>
+<p><img src="https://pic.xuexihaike.com/mpic/20210904/LopMDL3DLved.png" alt="mark" loading="lazy"></p>
+<hr>
+<p>对于2021年09月03日之后从 xuexihaike.com/tools/ 下载模板则无需再次修改（已经更新），对于之后的笔记也不用做上面的处理。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[tools2anki模板集（笔记工具X转复习工具ANKI）]]></title>
+        <id>https://xuexihaike.com/templates</id>
+        <link href="https://xuexihaike.com/templates"/>
+        <updated>2021-09-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[通用模板规则介绍
+最小学习闭环系列：卡片笔记的格式与模板
+
+Markdown模板
+从这里下载，然后在电脑上用Markdown软件打开（没有MD软件也可以右键选择用自带的“文本文档”打开），复制到自己的Markdown笔记工具里复用。
+
+No...]]></summary>
+        <content type="html"><![CDATA[<h2 id="通用模板规则介绍">通用模板规则介绍</h2>
+<p><a href="https://mp.weixin.qq.com/s/bbDV2MZ9t5BoJXvEhshTXw">最小学习闭环系列：卡片笔记的格式与模板</a></p>
+<hr>
+<h2 id="markdown模板">Markdown模板</h2>
+<p>从<a href="https://www.jianguoyun.com/p/DWaQERkQ89bQBxjCrJAE">这里</a>下载，然后在电脑上用Markdown软件打开（没有MD软件也可以右键选择用自带的“文本文档”打开），复制到自己的Markdown笔记工具里复用。</p>
+<hr>
+<h2 id="notion笔记的模板">Notion笔记的模板</h2>
+<p>用法：打开链接，然后保存到自己的账号里，每次需要的时候新建一个副本。</p>
+<p><a href="https://xuexi.notion.site/a593c53299584dc6bda540ae3d9b7841">笔记示范</a></p>
+<p><a href="https://xuexi.notion.site/01-89f88d4f1d444af29a608b517bcd7ae7">01：问题答案</a></p>
+<p><a href="https://xuexi.notion.site/02-af41b558350e4f94a4c10d09bdb7312f">02：问题答案补充</a></p>
+<p><a href="https://xuexi.notion.site/03-84f96413e7904569ae15a6e5225f3ad6">03：页码问题答案</a></p>
+<p><a href="https://xuexi.notion.site/04-ccefa448f5fa4f4d992553ca5d3db9c3">04：问题答案引用</a></p>
+<p><a href="https://xuexi.notion.site/05-04f63130ac48499a8b43a2e3ae05a405">05：问题答案补充引用</a></p>
+<p><a href="https://xuexi.notion.site/06-0d00b4dde8fb43778ffedd2c17ac29bc">06：页码问题答案补充</a></p>
+<h2 id="未完待续">未完待续</h2>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[tools2anki工具集（笔记工具X转复习工具ANKI）]]></title>
+        <id>https://xuexihaike.com/tools</id>
+        <link href="https://xuexihaike.com/tools"/>
+        <updated>2021-08-25T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[此工具集由 @学习骇客 的LEO 和 @引思网卡片库 的pimgeek联合设计开发，收藏本页面到书签栏不迷路。
+配套的ANKI模板：点击下载 2021年09月03日更新
+
+Markdown → Anki
+工具页面：Markdown 笔记转换...]]></summary>
+        <content type="html"><![CDATA[<p>此工具集由 @学习骇客 的LEO 和 @引思网卡片库 的pimgeek联合设计开发，收藏本页面到书签栏不迷路。</p>
+<p>配套的ANKI模板：<a href="https://www.jianguoyun.com/p/DR0gFIsQ89bQBxjfi8YEIAA">点击下载</a> 2021年09月03日更新</p>
+<hr>
+<h2 id="markmarkdown-ankimark"><mark>Markdown → Anki</mark></h2>
+<p>工具页面：<a href="https://hintsnet.com/tools/md2anki/index.html">Markdown 笔记转换为 Anki 卡片</a>   <a href="https://mp.weixin.qq.com/s/vVxZuYTAgWMPABghMebGIQ">😀使用方法</a></p>
+<p>支持Markdown的笔记工具有：印象笔记、有道云笔记、为知笔记、坚果云笔记、滴答清单、Typora、Obsidian等等等等。</p>
+<br>
+<br>
+<h2 id="mark幕布mubucom-ankimark"><mark>幕布（mubu.com） → Anki</mark></h2>
+<p>工具页面：<a href="https://hintsnet.com/tools/mubu2anki/index.html">幕布（mubu.com）大纲笔记转换为 Anki 卡片</a>   <a href="https://mp.weixin.qq.com/s/7BcJbdtGTXq4BHx8mqU5sA">😀使用方法</a></p>
+<br>
+<br>
+<h2 id="markopml-ankimark"><mark>OPML → Anki</mark></h2>
+<p>工具页面：<a href="https://hintsnet.com/tools/opml2anki/index.html">OPML 文档转换为 Anki 卡片</a>   😀使用方法同幕布</p>
+<p>支持OPML的笔记有：幕布、Workflowy、OmniOutliner等等等等。</p>
+<br>
+<br>
+<h2 id="markroam-research-ankimark"><mark>Roam Research → Anki</mark></h2>
+<p>工具页面：<a href="https://hintsnet.com/tools/roam2anki/index.html">Roam Research 大纲笔记转换为 Anki 卡片</a>   <a href="https://mp.weixin.qq.com/s/xWQQI78Y_GBGxi4XyGuiYQ">😀使用方法</a></p>
+<br>
+<br>
+<h2 id="mark葫芦笔记-ankimark"><mark>葫芦笔记 → Anki</mark></h2>
+<p>工具页面：<a href="https://hintsnet.com/tools/hulu2anki/index.html">葫芦笔记转换为 Anki 卡片</a>    😀使用方法同Roam Research</p>
+<br>
+<br>
+<br>
+<br>
+<hr>
+<h2 id="mark微信读书-roam-researchmark"><mark>微信读书 → Roam Research</mark></h2>
+<p>工具页面：<a href="https://hintsnet.com/tools/wxread2roam/index.html">微信读书笔记转换为 Roam Research 大纲笔记</a>   <a href="https://mp.weixin.qq.com/s/BZ9kjcFU0Ed6IvH2cWFmvQ">😀使用方法</a></p>
+<p>此工具也适用于将微信读书笔记转入葫芦笔记等大纲笔记</p>
+<br>
+<br>
+<h2 id="mark微信读书-markdownmark"><mark>微信读书 → Markdown</mark></h2>
+<p>工具页面：<a href="https://hintsnet.com/tools/wxread2md/index.html">微信读书笔记转换为 Markdown 笔记</a>   <a href="https://mp.weixin.qq.com/s/BZ9kjcFU0Ed6IvH2cWFmvQ">😀使用方法</a></p>
+<p>支持Markdown的笔记工具有：印象笔记、有道云笔记、为知笔记、坚果云笔记、滴答清单、Typora、Obsidian等等等等。</p>
+<hr>
+<br>
+<br>
+<p>关注 微信公众号：学习骇客 ，一起用技术和心理学改善学习。<br>
+<img src="https://pic.xuexihaike.com/%E6%89%AB%E7%A0%81_%E6%90%9C%E7%B4%A2%E8%81%94%E5%90%88%E4%BC%A0%E6%92%AD%E6%A0%B7%E5%BC%8F-%E6%A0%87%E5%87%86%E8%89%B2%E7%89%88.png" alt="" loading="lazy"></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[复制讲义时的断行、特殊符号、乱码怎么一键去掉？| 学习骇客]]></title>
+        <id>https://xuexihaike.com/duanhang</id>
+        <link href="https://xuexihaike.com/duanhang"/>
+        <updated>2021-08-25T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[从PDF或其他资料里复制文本时，原本是连续的语句，结果粘贴出来就成了下图这样到处是_断行_：
+
+以上问题常常带来如下不便：
+1、 粘贴的笔记格式不是原来的断句方式，还要一个个手动换行；
+2、 使用 tools2anki 时常常因为复制而来的...]]></summary>
+        <content type="html"><![CDATA[<p>从PDF或其他资料里复制文本时，原本是连续的语句，结果粘贴出来就成了下图这样到处是_断行_：</p>
+<p><img src="https://pic.xuexihaike.com/20210825191721.png" alt="" loading="lazy"></p>
+<p>以上问题常常带来如下不便：</p>
+<p><strong>1、</strong> 粘贴的笔记格式不是原来的断句方式，还要一个个手动换行；</p>
+<p><strong>2、</strong> 使用 <a href="https://mp.weixin.qq.com/s/RACuGjc8Z3JDka5wlxlBXA">tools2anki</a> 时常常因为复制而来的制表符等影响格式转换。</p>
+<p><strong>安装方法</strong>：</p>
+<p>由于软件的限制，此方法<strong>仅适用于</strong>Windows电脑，Mac电脑暂无，请Mac用户理解。</p>
+<p>使用电脑浏览器从 https://getquicker.net  下载Quicker软件（需付费），一路安装就可以了，安装好以后执行如下操作：</p>
+<p><strong>1、</strong> 复制如下链接内容</p>
+<p>https://getquicker.net/sharedaction?code=cfc572a1-47c8-4fab-2457-08d6d7620f1e</p>
+<p><strong>2、</strong> 打开Quicker软件，在这个界面点击右键，然后选择粘贴分享的动作</p>
+<p><img src="https://pic.xuexihaike.com/20210825191829.png" alt="" loading="lazy"></p>
+<p><strong>3、</strong> 就会得到如下图所示，这么个东西</p>
+<p><img src="https://pic.xuexihaike.com/20210825191852.png" alt="" loading="lazy"></p>
+<p><strong>使用方法：</strong></p>
+<p>以后粘贴碰到断行或或特殊符号等时，先正常从原材料处复制，但是在粘贴之前先点一下这个按钮，然后再去需要的位置点击粘贴。</p>
+<p>过程中间会有一步有弹窗，让选择处理方式，记得选择中文规整粘贴即可。</p>
+<p><img src="https://pic.xuexihaike.com/20210825191905.png" alt="" loading="lazy"></p>
+<p>粘贴以后对比如下，上半部分是原来的粘贴效果，下半部分是用Quicker后的粘贴效果，断行没有了，特殊符号也没有了。</p>
+<p><img src="https://pic.xuexihaike.com/20210825191918.png" alt="" loading="lazy"></p>
+<p><strong>补充方法</strong>：除了事后去除，LEO更加建议大家选择手动记录、Word材料、EPUB格式等，这些格式的材料复制出来以后再粘贴一般不会出现断行和乱码等。</p>
+<p><img src="https://pic.xuexihaike.com/20210825192004.png" alt="" loading="lazy"></p>
+<p>Quicker是Windows平台的一款用户颇多、备受好评的自动化软件，本文提到的用途只是千分之一，官网https://getquicker.net  有详细的使用说明，有能力的读者可以去选择性地学着用。</p>
+<p><em>友情提醒</em>：该软件需要使用者具备较好的软件素养，如果不会的同学较多，请关注下方视频号并留言“Quicker”，人较多时就录制一个专门的讲解视频。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[双链笔记/卡片笔记的习惯清单]]></title>
+        <id>https://xuexihaike.com/shuang-lian-bi-ji-qia-pian-bi-ji-de-xi-guan-qing-dan</id>
+        <link href="https://xuexihaike.com/shuang-lian-bi-ji-qia-pian-bi-ji-de-xi-guan-qing-dan"/>
+        <updated>2021-07-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[1、用自己的话记笔记，而不是照搬照抄；
+好处：既可以检验自己是否真地理解了，又能降低后续复习的难度。
+相反做法：复制粘贴、转发收藏、批量导入等。
+2、以问答形式（或标题加正文）的形式记笔记，而不是只有一大段文字；
+好处：树立问题意识；探索现...]]></summary>
+        <content type="html"><![CDATA[<p>1、用自己的话记笔记，而不是照搬照抄；</p>
+<p>好处：既可以检验自己是否真地理解了，又能降低后续复习的难度。<br>
+相反做法：复制粘贴、转发收藏、批量导入等。</p>
+<p>2、以问答形式（或标题加正文）的形式记笔记，而不是只有一大段文字；</p>
+<p>好处：树立问题意识；探索现实问题的解决办法；便于引用和搜索。<br>
+相反做法：大段文字无标注。</p>
+<p>3、一张卡片只记一件事，而不是未经处理的包含多层信息的知识点；</p>
+<p>4、经常回顾，定期回顾，甚至是每天回顾，而不是只管填满笔记工具；</p>
+<p>5、发现联系既要看已知的添加引用，又要依赖经常回顾去发现不曾想到过的未知的联系；</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[双链笔记的相关资料]]></title>
+        <id>https://xuexihaike.com/2021-nian07-yue05-ri-xue-xi-shuang-lian-bi-ji-zhi-de-guan-zhu-de-ji-ge-xin-xi-yuan</id>
+        <link href="https://xuexihaike.com/2021-nian07-yue05-ri-xue-xi-shuang-lian-bi-ji-zhi-de-guan-zhu-de-ji-ge-xin-xi-yuan"/>
+        <updated>2021-07-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[学习途径：
+Roam Research 官网的使用帮助与更新日志，从中获得直观的了解和系统性的功能学习；
+阅读《卡片笔记写作法》这本书，了解相关的原理，并在后续与功能结合的实践中去反复体会个中思想；
+王树义 老师微信公众号等平台的分享；
+h...]]></summary>
+        <content type="html"><![CDATA[<h4 id="学习途径">学习途径：</h4>
+<p>Roam Research 官网的使用帮助与更新日志，从中获得直观的了解和系统性的功能学习；</p>
+<p>阅读《卡片笔记写作法》这本书，了解相关的原理，并在后续与功能结合的实践中去反复体会个中思想；</p>
+<p>王树义 老师微信公众号等平台的分享；</p>
+<p>hulunote 在B站上的嘉宾直播与回放，了解榜样们在各个领域里是如何运用的，以及他们是怎么想的；</p>
+<p>立青 在B站的分享；</p>
+<hr>
+<h4 id="可选工具">可选工具</h4>
+<p>Roam Research（自用）；</p>
+<p>Obsidian；</p>
+<p>Logseq；</p>
+<p>hununote；</p>
+<p>roamedit;</p>
+<p>woali;</p>
+<hr>
+<p>后续继续更新……</p>
+]]></content>
+    </entry>
+</feed>

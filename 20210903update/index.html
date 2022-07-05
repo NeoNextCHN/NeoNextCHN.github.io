@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en" style="--theme-color: #262626; --link-color: #262626;">
+<head>
+  <meta charset="UTF-8">
+  <title>模板更新说明 2021年09月03日 - 学习骇客</title>
+
+  <link rel="icon" href="https://pic.xuexihaike.com/%E5%9B%BE%E7%89%875%E5%B0%8F%E5%9B%BE.png">
+<!-- <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet"> -->
+<link rel="alternate" type="application/atom+xml" title="学习骇客 - Atom Feed" href="https://xuexihaike.com/atom.xml">
+
+  
+
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-NFCRR8Q57W"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+  </script> -->
+  <script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+
+  <script>
+    window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+    ga('create', 'UA-182385326-1');
+    ga('set', 'dimension1', 'site/WJ7omTv3L');
+    ga('set', 'dimension2', 'post/WHa5OvXAF');
+    ga('send', 'pageview');
+    // gtag('set', {
+    //   'custom_map': {
+    //     'dimension1': 'siteId',
+    //     'dimension2': 'postId',
+    //   }
+    // })
+
+    // gtag('config', 'G-NFCRR8Q57W', {
+    //   'siteId': 'site/WJ7omTv3L',
+    //   'postId': 'post/WHa5OvXAF',
+    // });
+  </script>
+
+
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="在 tools2anki 系列工具页面的 “素颜列表” 转换功能上，一直存在一个问题，即 笔记到了 ANKI 里以后，在编辑状态下，左侧边距较大，这次更新解决了这个问题。大家注意多按几次刷新（Ctrl Shift R），网页就会加载最新的了...">
+
+  <meta property="og:title" content="模板更新说明 2021年09月03日 - 学习骇客">
+  <meta property="og:description" content="在 tools2anki 系列工具页面的 “素颜列表” 转换功能上，一直存在一个问题，即 笔记到了 ANKI 里以后，在编辑状态下，左侧边距较大，这次更新解决了这个问题。大家注意多按几次刷新（Ctrl Shift R），网页就会加载最新的了...">
+  
+  <meta property="og:url" content="https://xuexihaike.com/20210903update/">
+  <meta property="og:site_name" content="学习骇客">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image:alt" content="模板更新说明 2021年09月03日">
+
+  <meta name="gridea:post_id" content="WHa5OvXAF">
+
+  <link rel="canonical" href="https://xuexihaike.com/20210903update">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@10.0.3/styles/a11y-light.css">
+  
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@gridea/theme@1.0.8/css/main.css">
+
+</head>
+<body>
+  
+    
+  
+  <div id="page">
+    <div class="mb-16 sticky top-0 z-20 bg-white">
+  <header class="py-4 flex items-baseline justify-between max-w-2xl mx-auto px-2">
+    <h1 class="text-lg text-center font-medium px-4 md:px-0 flex items-center">
+      <div class="site-logo-text font-normal">学</div>
+      <a href="/">学习骇客</a>
+    </h1>
+    <div class="hidden sm:flex justify-center">
+      
+        
+        <a
+          href="https://xuexihaike.taobao.com"
+          class="mx-2 text-base border-b border-transparent"
+          
+        >第四代课程·购买</a>
+        
+          <span class="text-gray-200">/</span>
+        
+      
+        
+        <a
+          href="https://support.qq.com/products/314107/"
+          class="mx-2 text-base border-b border-transparent"
+          
+        >第四代课程·论坛</a>
+        
+      
+    </div>
+    <div class="flex sm:hidden py-2 px-4 text-center cursor-pointer" @click="openMenu = true">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M3 4h18v2H3V4zm0 7h18v2H3v-2zm0 7h18v2H3v-2z"/></svg>
+    </div>
+  </header>
+
+  <div class="fixed top-0 right-0 bottom-0 left-0 bg-white hidden" :style="{
+    display: openMenu ? 'block !important' : 'none',
+  }" v-if="openMenu">
+    <div class="py-4 px-2 flex justify-end" @click="openMenu = false">
+      <div class="flex py-2 px-4 text-center cursor-pointer">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 10.586l4.95-4.95 1.414 1.414-4.95 4.95 4.95 4.95-1.414 1.414-4.95-4.95-4.95 4.95-1.414-1.414 4.95-4.95-4.95-4.95L7.05 5.636z"/></svg>
+      </div>
+    </div>
+    <div class="flex flex-col p-4">
+      
+        
+        <a
+          href="https://xuexihaike.taobao.com"
+          class="mx-2 my-4 text-base border-b border-transparent"
+          
+        >第四代课程·购买</a>
+      
+        
+        <a
+          href="https://support.qq.com/products/314107/"
+          class="mx-2 my-4 text-base border-b border-transparent"
+          
+        >第四代课程·论坛</a>
+      
+    </div>
+  </div>
+</div>
+    <div class="border-b border-gray-200">
+      <div class="max-w-2xl mx-auto px-6 md:px-2">
+        <div class="my-24 text-center">
+          <h1 class="text-2xl font-bold">模板更新说明 2021年09月03日</h1>
+          <div class="post-title-bar mx-auto rounded mt-4"></div>
+          <div class="text-gray-400 mt-4">2021.09.03</div>
+          <div class="flex justify-center mt-4">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="sticky-bar" class="w-full sticky top-0 z-10 bg-white" style="height: 64px;"></div>
+    <div class="p-4 md:p-16 bg-white">
+      <div class="max-w-2xl mx-auto px-4 flex relative">
+        <section class="post-content flex-1 default-post-content max-w-2xl">
+          <div v-pre>
+            <p>在 <a href="https://hintsnet.com/tools/mubu2anki/index.html">tools2anki</a> 系列工具页面的 “素颜列表” 转换功能上，一直存在一个问题，即 笔记到了 ANKI 里以后，在编辑状态下，左侧边距较大，这次更新解决了这个问题。大家注意多按几次<strong>刷新</strong>（Ctrl Shift R），网页就会加载最新的了。</p>
+<p>从今（2021年09月03日）以后，使用素颜列表的同学，得到的笔记都会一致贴边左对齐。</p>
+<p>为了调整之前导入的笔记，请大家做如下两步处理：</p>
+<p>1、在电脑版ANKI里，进入浏览，点击左侧的“牌组”或其他选项，选中全部笔记，然后右键选择“查找并替换”，将 【margin-left: -24px;】 查找替换为 【margin-left: 0px; padding-left: 0px;】 如下图所示。</p>
+<p><img src="https://pic.xuexihaike.com/mpic/20210903/FSYDJHYBRu4A.png" alt="mark" loading="lazy"></p>
+<p>2、到现有模板里把图中这块代码删掉。</p>
+<p><img src="https://pic.xuexihaike.com/mpic/20210903/JVrsStFDrfEg.png" alt="mark" loading="lazy"></p>
+<p>进入模板修改代码的路径如下图所示。</p>
+<p><img src="https://pic.xuexihaike.com/mpic/20210903/3PRRN8NnziYE.png" alt="mark" loading="lazy"></p>
+<p>3、如果还有再往前的笔记，需要再替换一次，将 【style=&quot;list-style-type: none;&quot;】 查找替换为 【style=&quot;list-style-type: none; margin-left: 0px; padding-left: 0px;&quot;】 如下图所示。</p>
+<p><img src="https://pic.xuexihaike.com/mpic/20210904/LopMDL3DLved.png" alt="mark" loading="lazy"></p>
+<hr>
+<p>对于2021年09月03日之后从 xuexihaike.com/tools/ 下载模板则无需再次修改（已经更新），对于之后的笔记也不用做上面的处理。</p>
+
+          </div>
+          <div class="py-4 text-gray-600 flex items-center justify-between">
+            <div class="">
+              <div class="text-sm text-gray-300">最后更新于: </div>
+              <div class="text-base font-medium">2021.09.04</div>
+            </div>
+            <!-- <div class="flex items-center text-sm text-gray-600">
+              <i class="ri-eye-line"></i> <span class="ml-2">{{ views }}</span>
+            </div> -->
+          </div>
+          <div>
+            <div id="disqus_thread"></div>
+          </div>
+        </section>
+        
+      </div>
+    </div>
+    <div class="py-8 text-gray-300 text-center border-t border-gray-200">
+  Powered by Gridea
+</div>
+  </div>
+
+  <script src="//cdn.jsdelivr.net/npm/vue@2.6.11"></script>
+  
+  <script src="//cdn.jsdelivr.net/npm/@gridea/theme@1.0.8/js/main.js"></script>
+
+  <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.0.0/build/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  
+  
+    <div style="text-align: center" class="py-8 text-gray-300 text-center border-t border-gray-200"><a href="https://beian.miit.gov.cn/" target="_blank" class="text">苏ICP备18002808号-1</a> </div>
+  
+</body>
+</html>
